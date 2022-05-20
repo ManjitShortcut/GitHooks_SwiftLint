@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var a = 12;
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,8 +19,10 @@ class ViewController: UIViewController {
         
     }
     
-    func  test1    {
+    func  test1 () {
         
     }
+    
+    
 }
 
