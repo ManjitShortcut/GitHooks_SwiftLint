@@ -15,14 +15,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     func secondViewController() {
-        
-    }
-    
-    func  test1()   {
 
     }
-    
-    func testSecond()    {
-        
+
+    func  test1() {
+
+    }
+
+    func testSecond() {
+
     }
 }
