@@ -16,6 +16,8 @@
 		1A32CB5E2834E25C00B6F12A /* SwiftLintHooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CB5D2834E25C00B6F12A /* SwiftLintHooksTests.swift */; };
 		1A32CB682834E25C00B6F12A /* SwiftLintHooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CB672834E25C00B6F12A /* SwiftLintHooksUITests.swift */; };
 		1A32CB6A2834E25C00B6F12A /* SwiftLintHooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CB692834E25C00B6F12A /* SwiftLintHooksUITestsLaunchTests.swift */; };
+		1A70506B283AED1E001D145E /* GhgghViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A705069283AED1E001D145E /* GhgghViewController.swift */; };
+		1A70506C283AED1F001D145E /* GhgghViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A70506A283AED1E001D145E /* GhgghViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		1A32CB672834E25C00B6F12A /* SwiftLintHooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLintHooksUITests.swift; sourceTree = "<group>"; };
 		1A32CB692834E25C00B6F12A /* SwiftLintHooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLintHooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1A705066283998D0001D145E /* .pre-commit-config.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ".pre-commit-config.yaml"; sourceTree = "<group>"; };
+		1A705069283AED1E001D145E /* GhgghViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhgghViewController.swift; sourceTree = "<group>"; };
+		1A70506A283AED1E001D145E /* GhgghViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GhgghViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				1A32CB4F2834E25C00B6F12A /* Assets.xcassets */,
 				1A32CB512834E25C00B6F12A /* LaunchScreen.storyboard */,
 				1A32CB542834E25C00B6F12A /* Info.plist */,
+				1A705069283AED1E001D145E /* GhgghViewController.swift */,
+				1A70506A283AED1E001D145E /* GhgghViewController.xib */,
 			);
 			path = SwiftLintHooks;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A70506C283AED1F001D145E /* GhgghViewController.xib in Resources */,
 				1A32CB532834E25C00B6F12A /* LaunchScreen.storyboard in Resources */,
 				1A32CB502834E25C00B6F12A /* Assets.xcassets in Resources */,
 				1A32CB4E2834E25A00B6F12A /* Main.storyboard in Resources */,
@@ -301,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A70506B283AED1E001D145E /* GhgghViewController.swift in Sources */,
 				1A32CB4B2834E25A00B6F12A /* ViewController.swift in Sources */,
 				1A32CB472834E25A00B6F12A /* AppDelegate.swift in Sources */,
 				1A32CB492834E25A00B6F12A /* SceneDelegate.swift in Sources */,
