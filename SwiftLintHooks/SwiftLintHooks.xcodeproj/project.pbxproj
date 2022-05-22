@@ -49,6 +49,7 @@
 		1A32CB632834E25C00B6F12A /* SwiftLintHooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLintHooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A32CB672834E25C00B6F12A /* SwiftLintHooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLintHooksUITests.swift; sourceTree = "<group>"; };
 		1A32CB692834E25C00B6F12A /* SwiftLintHooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLintHooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A705066283998D0001D145E /* .pre-commit-config.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ".pre-commit-config.yaml"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		1A32CB3A2834E25A00B6F12A = {
 			isa = PBXGroup;
 			children = (
+				1A705066283998D0001D145E /* .pre-commit-config.yaml */,
 				1A32CB452834E25A00B6F12A /* SwiftLintHooks */,
 				1A32CB5C2834E25C00B6F12A /* SwiftLintHooksTests */,
 				1A32CB662834E25C00B6F12A /* SwiftLintHooksUITests */,
