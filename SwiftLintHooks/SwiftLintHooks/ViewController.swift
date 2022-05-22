@@ -8,21 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    var abc = 12
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-    func secondViewController() {
-
-    }
-
-    func  test1() {
-
-    }
-
-    func testSecond() {
-
     }
 }
